@@ -115,11 +115,12 @@
 # of 7 TRUEs.)
 
 
-#31. Create a vector called "HiSat" that indicates whether the Saturday date is greater
-# than 14. (It should have 5 TRUE/FALSE entries.)
+#31. Create a vector called "HiSat" that indicates whether each Saturday date from febmar 
+# is greater than 14. (It should have 5 TRUE/FALSE entries.)
 
 
-#32. Use HiSat to select the rows of m1 where the Saturday date is greater than 14.
+#32. Use HiSat to select the rows of febmar where the Saturday date is greater than 14. Save
+# the resulting matrix as HiSatMat.
 
 
 #33. Create a vector called "LowSun" that indicates whether the Sunday date is less 
@@ -127,5 +128,5 @@
 
 
 #34. Use LowSun to select the rows of m1 where the Sunday date is less than or equal
-# to 14.
+# to 14. Save the resulting matrix as LowSunMat.
 

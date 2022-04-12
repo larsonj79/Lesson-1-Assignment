@@ -227,6 +227,48 @@ test_that("Q30 (visible)", {
   
 })
 
+test_that("Q31 (visible)", {
+  
+  expect_equal(HiSat[1], FALSE)
+  expect_equal(HiSat[2], FALSE)
+  expect_equal(HiSat[3], TRUE)
+  expect_equal(HiSat[4], TRUE)
+  expect_equal(HiSat[5], FALSE)
+  
+})
+
+test_that("Q32 (visible)", {
+  
+  expect_equal(HiSatMat[1, 1], 15)
+  expect_equal(HiSatMat[1, 4], 18)
+  expect_equal(HiSatMat[1, 6], 20)
+  expect_equal(HiSatMat[2, 1], 22)
+  expect_equal(HiSatMat[2, 3], 24)
+  expect_equal(HiSatMat[2, 5], 26)
+
+})
+
+test_that("Q33 (visible)", {
+  
+  expect_equal(LowSun[1], TRUE)
+  expect_equal(LowSun[2], TRUE)
+  expect_equal(LowSun[3], FALSE)
+  expect_equal(LowSun[4], FALSE)
+  expect_equal(LowSun[5], TRUE)
+  
+})
+
+test_that("Q34 (visible)", {
+  
+  expect_equal(LowSunMat[1, 1], 1)
+  expect_equal(LowSunMat[1, 4], 4)
+  expect_equal(LowSunMat[2, 6], 13)
+  expect_equal(LowSunMat[2, 1], 8)
+  expect_equal(LowSunMat[3, 3], 3)
+  expect_equal(LowSunMat[3, 5], 5)
+  
+})
+
 
 
 
