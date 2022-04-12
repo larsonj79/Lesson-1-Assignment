@@ -68,7 +68,7 @@
 # (https://campus.datacamp.com/courses/free-introduction-to-r/chapter-3-matrices-3?ex=1)
 
 
-# 19. Select the 3rd value in the 2nd row of m1
+# 19. Select the 3rd value in the 2nd row of m1 and save it as r2c3.
 # https://campus.datacamp.com/courses/free-introduction-to-r/chapter-3-matrices-3?ex=8
 
 
@@ -91,26 +91,28 @@
 # values 1 through 7.
 
 
-# 25. Now add mar onto m1 in the appropriate place using rbind
+# 25. Use rbind to create a matrix called febmar that contains 5 rows: the first four
+# rows from m1 and the fifth row being mar.
 # (https://campus.datacamp.com/courses/free-introduction-to-r/chapter-3-matrices-3?ex=6)
 
 
 # 26. Look at your new matrix
 
 
-# 27. Create a vector called "Wednesdays" that includes the Wednesday dates from m1. 
+# 27. Create a vector called "Wednesdays" that includes the Wednesday dates from febmar. 
 # (Select column 4 from m1.)
 
 
-#28. Create a vector called "Fridays" that includes the Friday dates from m1. (Select
+#28. Create a vector called "Fridays" that includes the Friday dates from febmar. (Select
 # the "F" column from m1.)
 
 
-#29. Show the third week of February by selecting "wk3" from m1.
+#29. Save the third week of February to a variable week3 by selecting "wk3" from febmar.
 
 
-#30. Check whether the entries from "wk1" of m1 are equivalent to "mar" from m1.
-# (We know they are equivalent, so we should see a vector of 7 TRUEs.)
+#30. Check whether the entries from "wk1" of febmar are equivalent to "mar". Save the 
+# resulting test as weekequiv. (We know they are equivalent, so we should see a vector
+# of 7 TRUEs.)
 
 
 #31. Create a vector called "HiSat" that indicates whether the Saturday date is greater

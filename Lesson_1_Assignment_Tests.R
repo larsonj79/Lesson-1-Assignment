@@ -109,7 +109,121 @@ test_that("Q17 (visible)", {
 
 test_that("Q18 (visible)", {
   
-  expect_equal(m1[1,1], 1)
+  expect_equal(m1[1, 1], 1)
+  expect_equal(m1[2, 1], 8)
+  expect_equal(m1[3, 1], 15)
+  expect_equal(m1[4, 1], 22)
+  expect_equal(m1[1, 2], 2)
+  expect_equal(m1[2, 5], 12)
+  expect_equal(m1[3, 4], 18)
+  expect_equal(m1[4, 6], 27)
+  
+})
+
+test_that("Q19 (visible)", {
+  
+  expect_equal(r2c3, 10)
+  
+})
+
+test_that("Q20 (visible)", {
+  
+  expect_equal(days[1], "Su")
+  expect_equal(days[2], "M")
+  expect_equal(days[3], "T")
+  expect_equal(days[4], "W")
+  expect_equal(days[5], "Th")
+  expect_equal(days[6], "F")
+  expect_equal(days[7], "Sa")
+  
+})
+
+test_that("Q21 (visible)", {
+  
+  expect_equal(wk[1], "wk1")
+  expect_equal(wk[2], "wk2")
+  expect_equal(wk[3], "wk3")
+  expect_equal(wk[4], "wk4")
+
+})
+
+test_that("Q22 (visible)", {
+  
+  expect_equal(colnames(m1)[1], "Su")
+  expect_equal(colnames(m1)[2], "M")
+  expect_equal(colnames(m1)[3], "T")
+  expect_equal(colnames(m1)[5], "Th")
+  expect_equal(colnames(m1)[6], "F")
+  expect_equal(rownames(m1)[1], "wk1")
+  expect_equal(rownames(m1)[4], "wk4")
+  
+})
+
+test_that("Q24 (visible)", {
+  
+  expect_equal(mar[1], 1)
+  expect_equal(mar[2], 2)
+  expect_equal(mar[3], 3)
+  expect_equal(mar[4], 4)
+  expect_equal(mar[5], 5)
+  expect_equal(mar[6], 6)
+  expect_equal(mar[7], 7)
+  
+})
+
+test_that("Q25 (visible)", {
+  
+  expect_equal(febmar[1, 1], 1)
+  expect_equal(febmar[2, 1], 8)
+  expect_equal(febmar[3, 1], 15)
+  expect_equal(febmar[4, 1], 22)
+  expect_equal(febmar[1, 2], 2)
+  expect_equal(febmar[2, 5], 12)
+  expect_equal(febmar[3, 4], 18)
+  expect_equal(febmar[4, 6], 27)
+  expect_equal(febmar[5, 1], 1)
+  expect_equal(febmar[5, 3], 3)
+  expect_equal(febmar[5, 6], 6)
+  
+})
+
+test_that("Q27 (visible)", {
+  
+  expect_equal(Wednesdays[1], 4)
+  expect_equal(Wednesdays[2], 11)
+  expect_equal(Wednesdays[3], 18)
+  expect_equal(Wednesdays[4], 25)
+  expect_equal(Wednesdays[5], 4)
+
+})
+
+test_that("Q28 (visible)", {
+  
+  expect_equal(Fridays[1], 6)
+  expect_equal(Fridays[2], 13)
+  expect_equal(Fridays[3], 20)
+  expect_equal(Fridays[4], 27)
+  expect_equal(Fridays[5], 6)
+  
+})
+
+test_that("Q29 (visible)", {
+  
+  expect_equal(week3[1], 15)
+  expect_equal(week3[2], 16)
+  expect_equal(week3[4], 18)
+  expect_equal(week3[6], 20)
+  expect_equal(week3[7], 21)
+  
+})
+
+test_that("Q30 (visible)", {
+  
+  expect_equal(weekequiv[1], TRUE)
+  expect_equal(weekequiv[2], TRUE)
+  expect_equal(weekequiv[4], TRUE)
+  expect_equal(weekequiv[6], TRUE)
+  expect_equal(weeequiv3[7], TRUE)
   
 })
 
