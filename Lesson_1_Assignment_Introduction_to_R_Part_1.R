@@ -131,3 +131,9 @@ LowSun <- febmar[,"Su"] <= 14
 #34. Use LowSun to select the rows of m1 where the Sunday date is less than or equal
 # to 14. Save the resulting matrix as LowSunMat.
 LowSunMat <- febmar[LowSun,]
+
+# Once you have completed the assignment, download this file to your computer. Check the box
+# next to this file ("Lesson_1_Assignment_Introduction_to_R_Part_1.R") then click "More" in
+# the bottom right window. Select "Export...". Once the file is downloaded to your computer,
+# upload it to the proper location in GradeScope. Do not change the name of the file or 
+# GradeScope will return an error.
