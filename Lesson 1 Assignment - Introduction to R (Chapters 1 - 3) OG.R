@@ -6,22 +6,22 @@
 # save them in this file for your assignment.
 
 
-# 1. Assign the variable x with a value of 10
+# 1. Assign the variable x with a value of 10.
 
 
-# 2. Print out x
+# 2. Print out x.
 
 
-# 3. Assign the variable y with a value of 180
+# 3. Assign the variable y with a value of 180.
 
 
 # 4. Calculate y / x and store it to the variable w.
 
 
-# 5. Create variable z with value TRUE
+# 5. Create variable z with value TRUE.
 
 
-# 6. Create variable a with value "nice"
+# 6. Create variable a with value "nice".
 
 
 # 7. Check the class of a. Store the result in variable b.
@@ -30,13 +30,13 @@
 # 8. Let's create our first vector. Name it v1 and have it contain numbers 1 through 9. 
 
 
-# 9. Print out v1
+# 9. Print out v1.
 
 
 # 10. Calculate the sum of the values in v1. Save the sum as sumv1.
 
 
-# 11. Create a new vector, v2, by squaring v1
+# 11. Create a new vector, v2, by squaring v1.
 
 
 # 12. Calculate the sum of the values in v2. Save the sum as sumv2.
@@ -84,7 +84,7 @@
 # (https://campus.datacamp.com/courses/free-introduction-to-r/chapter-3-matrices-3?ex=3)
 
 
-# 23. Look at your new matrix
+# 23. Look at your new matrix.
 
 
 # 24. We want to add the first week of March... create a new vector named mar containing 
@@ -96,7 +96,7 @@
 # (https://campus.datacamp.com/courses/free-introduction-to-r/chapter-3-matrices-3?ex=6)
 
 
-# 26. Look at your new matrix
+# 26. Look at your new matrix.
 
 
 # 27. Create a vector called "Wednesdays" that includes the Wednesday dates from febmar. 

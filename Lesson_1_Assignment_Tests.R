@@ -223,7 +223,7 @@ test_that("Q30 (visible)", {
   expect_equal(unname(weekequiv[2]), TRUE)
   expect_equal(unname(weekequiv[4]), TRUE)
   expect_equal(unname(weekequiv[6]), TRUE)
-  expect_equal(unname(weeequiv3[7]), TRUE)
+  expect_equal(unname(weekequiv[7]), TRUE)
   
 })
 
