@@ -45,11 +45,11 @@ sumv2 <- sum(v2)
 # 13. We believe that the sum of v2 is larger than the sum of v1. Confirm this using 
 # greater than/less than symbols. Save this test as valtest. (valtest should be a 
 # logical variable)
-valtest <- v2 > v1
+valtest <- sum(v2) > sum(v1)
 
 # 14. Calculate how much bigger the sum of v2 is than the sum of v1. Save this
 # calculation as diffv2v1.
-diffv2v1 <- v2 - v1
+diffv2v1 <- sum(v2) - sum(v1)
 
 # 15. Create a new vector called pts that contains these values in order:
 # 111, 106, 105, 102, 100
@@ -106,7 +106,7 @@ Wednesdays <- febmar[, 4]
 
 #28. Create a vector called "Fridays" that includes the Friday dates from febmar. (Select
 # the "F" column from m1.)
-Fridays <- febmar[, "Sa"]
+Fridays <- febmar[, "F"]
 
 #29. Save the third week of February to a variable week3 by selecting "wk3" from febmar.
 week3 <- febmar["wk3",]
@@ -126,8 +126,8 @@ HiSatMat <- febmar[HiSat,]
 
 #33. Create a vector called "LowSun" that indicates whether the Sunday date is less 
 # than or equal to 14. 
-LowSun <- febmar[,"S"] <= 14
+LowSun <- febmar[,"Su"] <= 14
 
 #34. Use LowSun to select the rows of m1 where the Sunday date is less than or equal
 # to 14. Save the resulting matrix as LowSunMat.
-LowSunMat <- fembar[LowSun,]
+LowSunMat <- febmar[LowSun,]

@@ -25,7 +25,7 @@ test_that("Q4 (visible)", {
 
 test_that("Q5 (visible)", {
   
-  expect_equal(z, "TRUE") 
+  expect_equal(z, TRUE) 
   
 })
 
@@ -69,7 +69,7 @@ test_that("Q11 (visible)", {
 
 test_that("Q12 (visible)", {
   
-  expect_equal(sumv12, 285)
+  expect_equal(sumv2, 285)
   
 })
 
@@ -271,14 +271,3 @@ test_that("Q34 (visible)", {
 
 
 
-
-
-
-
-
-test_that("third", {
-
-  expect_equal(nrow(myDataFrame), 2)
-  expect_equal(myDataFrame[2,3], 700.01, tolerance=1e-3)
-
-})
