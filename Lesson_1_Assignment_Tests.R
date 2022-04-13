@@ -189,51 +189,51 @@ test_that("Q25 (visible)", {
 
 test_that("Q27 (visible)", {
   
-  expect_equal(Wednesdays[1], 4)
-  expect_equal(Wednesdays[2], 11)
-  expect_equal(Wednesdays[3], 18)
-  expect_equal(Wednesdays[4], 25)
-  expect_equal(Wednesdays[5], 4)
+  expect_equal(unname(Wednesdays[1]), 4)
+  expect_equal(unname(Wednesdays[2]), 11)
+  expect_equal(unname(Wednesdays[3]), 18)
+  expect_equal(unname(Wednesdays[4]), 25)
+  expect_equal(unname(Wednesdays[5]), 4)
 
 })
 
 test_that("Q28 (visible)", {
   
-  expect_equal(Fridays[1], 6)
-  expect_equal(Fridays[2], 13)
-  expect_equal(Fridays[3], 20)
-  expect_equal(Fridays[4], 27)
-  expect_equal(Fridays[5], 6)
+  expect_equal(unname(Fridays[1]), 6)
+  expect_equal(unname(Fridays[2]), 13)
+  expect_equal(unname(Fridays[3]), 20)
+  expect_equal(unname(Fridays[4]), 27)
+  expect_equal(unname(Fridays[5]), 6)
   
 })
 
 test_that("Q29 (visible)", {
   
-  expect_equal(week3[1], 15)
-  expect_equal(week3[2], 16)
-  expect_equal(week3[4], 18)
-  expect_equal(week3[6], 20)
-  expect_equal(week3[7], 21)
+  expect_equal(unname(week3[1]), 15)
+  expect_equal(unname(week3[2]), 16)
+  expect_equal(unname(week3[4]), 18)
+  expect_equal(unname(week3[6]), 20)
+  expect_equal(unname(week3[7]), 21)
   
 })
 
 test_that("Q30 (visible)", {
   
-  expect_equal(weekequiv[1], TRUE)
-  expect_equal(weekequiv[2], TRUE)
-  expect_equal(weekequiv[4], TRUE)
-  expect_equal(weekequiv[6], TRUE)
-  expect_equal(weeequiv3[7], TRUE)
+  expect_equal(unname(weekequiv[1]), TRUE)
+  expect_equal(unname(weekequiv[2]), TRUE)
+  expect_equal(unname(weekequiv[4]), TRUE)
+  expect_equal(unname(weekequiv[6]), TRUE)
+  expect_equal(unname(weeequiv3[7]), TRUE)
   
 })
 
 test_that("Q31 (visible)", {
   
-  expect_equal(HiSat[1], FALSE)
-  expect_equal(HiSat[2], FALSE)
-  expect_equal(HiSat[3], TRUE)
-  expect_equal(HiSat[4], TRUE)
-  expect_equal(HiSat[5], FALSE)
+  expect_equal(unname(HiSat[1]), FALSE)
+  expect_equal(unname(HiSat[2]), FALSE)
+  expect_equal(unname(HiSat[3]), TRUE)
+  expect_equal(unname(HiSat[4]), TRUE)
+  expect_equal(unname(HiSat[5]), FALSE)
   
 })
 
@@ -250,11 +250,11 @@ test_that("Q32 (visible)", {
 
 test_that("Q33 (visible)", {
   
-  expect_equal(LowSun[1], TRUE)
-  expect_equal(LowSun[2], TRUE)
-  expect_equal(LowSun[3], FALSE)
-  expect_equal(LowSun[4], FALSE)
-  expect_equal(LowSun[5], TRUE)
+  expect_equal(unname(LowSun[1]), TRUE)
+  expect_equal(unname(LowSun[2]), TRUE)
+  expect_equal(unname(LowSun[3]), FALSE)
+  expect_equal(unname(LowSun[4]), FALSE)
+  expect_equal(unname(LowSun[5]), TRUE)
   
 })
 
