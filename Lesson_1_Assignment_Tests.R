@@ -5,38 +5,23 @@ library(testthat)
 # you can have multiple tests for each question
 
 
-test_that("Q1 (visible)", {
+test_that("Q1 & Q3 (visible)", {
   
   expect_equal(x, 10) 
-  
-})
-
-test_that("Q3 (visible)", {
-  
   expect_equal(y, 180) 
   
 })
 
-test_that("Q4 (visible)", {
+test_that("Q4 & Q5 (visible)", {
   
   expect_equal(w, 18) 
-  
-})
-
-test_that("Q5 (visible)", {
-  
   expect_equal(z, TRUE) 
   
 })
 
-test_that("Q6 (visible)", {
+test_that("Q6 & Q7 (visible)", {
   
   expect_equal(a, "nice")
-  
-})
-
-test_that("Q7 (visible)", {
-  
   expect_equal(b, "character")
   
 })
@@ -57,18 +42,13 @@ test_that("Q10 (visible)", {
   
 })
 
-test_that("Q11 (visible)", {
+test_that("Q11 & Q12 (visible)", {
   
   expect_equal(v2[1], 1)
   expect_equal(v2[2], 4)
   expect_equal(v2[3], 9)
   expect_equal(v2[5], 25)
   expect_equal(v2[8], 64)
-  
-})
-
-test_that("Q12 (visible)", {
-  
   expect_equal(sumv2, 285)
   
 })
@@ -85,18 +65,13 @@ test_that("Q14 (visible)", {
   
 })
 
-test_that("Q15 (visible)", {
+test_that("Q15 & Q16 (visible)", {
   
   expect_equal(pts[1], 111)
   expect_equal(pts[2], 106)
   expect_equal(pts[3], 105)
   expect_equal(pts[4], 102)
   expect_equal(pts[5], 100)
-  
-})
-
-test_that("Q16 (visible)", {
-  
   expect_equal(meanpts, 104.8, tolerance = 1e-1)
   
 })
@@ -126,7 +101,7 @@ test_that("Q19 (visible)", {
   
 })
 
-test_that("Q20 (visible)", {
+test_that("Q20 & Q21 (visible)", {
   
   expect_equal(days[1], "Su")
   expect_equal(days[2], "M")
@@ -135,16 +110,11 @@ test_that("Q20 (visible)", {
   expect_equal(days[5], "Th")
   expect_equal(days[6], "F")
   expect_equal(days[7], "Sa")
-  
-})
-
-test_that("Q21 (visible)", {
-  
   expect_equal(wk[1], "wk1")
   expect_equal(wk[2], "wk2")
   expect_equal(wk[3], "wk3")
   expect_equal(wk[4], "wk4")
-
+  
 })
 
 test_that("Q22 (visible)", {
@@ -159,7 +129,7 @@ test_that("Q22 (visible)", {
   
 })
 
-test_that("Q24 (visible)", {
+test_that("Q24 & Q25 (visible)", {
   
   expect_equal(mar[1], 1)
   expect_equal(mar[2], 2)
@@ -168,11 +138,6 @@ test_that("Q24 (visible)", {
   expect_equal(mar[5], 5)
   expect_equal(mar[6], 6)
   expect_equal(mar[7], 7)
-  
-})
-
-test_that("Q25 (visible)", {
-  
   expect_equal(febmar[1, 1], 1)
   expect_equal(febmar[2, 1], 8)
   expect_equal(febmar[3, 1], 15)
@@ -187,18 +152,13 @@ test_that("Q25 (visible)", {
   
 })
 
-test_that("Q27 (visible)", {
+test_that("Q27 & Q28 (visible)", {
   
   expect_equal(unname(Wednesdays[1]), 4)
   expect_equal(unname(Wednesdays[2]), 11)
   expect_equal(unname(Wednesdays[3]), 18)
   expect_equal(unname(Wednesdays[4]), 25)
   expect_equal(unname(Wednesdays[5]), 4)
-
-})
-
-test_that("Q28 (visible)", {
-  
   expect_equal(unname(Fridays[1]), 6)
   expect_equal(unname(Fridays[2]), 13)
   expect_equal(unname(Fridays[3]), 20)
@@ -207,18 +167,13 @@ test_that("Q28 (visible)", {
   
 })
 
-test_that("Q29 (visible)", {
+test_that("Q29 & Q30 (visible)", {
   
   expect_equal(unname(week3[1]), 15)
   expect_equal(unname(week3[2]), 16)
   expect_equal(unname(week3[4]), 18)
   expect_equal(unname(week3[6]), 20)
   expect_equal(unname(week3[7]), 21)
-  
-})
-
-test_that("Q30 (visible)", {
-  
   expect_equal(unname(weekequiv[1]), TRUE)
   expect_equal(unname(weekequiv[2]), TRUE)
   expect_equal(unname(weekequiv[4]), TRUE)
@@ -227,25 +182,20 @@ test_that("Q30 (visible)", {
   
 })
 
-test_that("Q31 (visible)", {
+test_that("Q31 & Q32 (visible)", {
   
   expect_equal(unname(HiSat[1]), FALSE)
   expect_equal(unname(HiSat[2]), FALSE)
   expect_equal(unname(HiSat[3]), TRUE)
   expect_equal(unname(HiSat[4]), TRUE)
   expect_equal(unname(HiSat[5]), FALSE)
-  
-})
-
-test_that("Q32 (visible)", {
-  
   expect_equal(HiSatMat[1, 1], 15)
   expect_equal(HiSatMat[1, 4], 18)
   expect_equal(HiSatMat[1, 6], 20)
   expect_equal(HiSatMat[2, 1], 22)
   expect_equal(HiSatMat[2, 3], 24)
   expect_equal(HiSatMat[2, 5], 26)
-
+  
 })
 
 test_that("Q33 (visible)", {
