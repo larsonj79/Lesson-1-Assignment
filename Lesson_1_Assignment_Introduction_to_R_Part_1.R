@@ -101,11 +101,11 @@ febmar <- rbind(m1, mar)
 febmar
 
 # 27. Create a vector called "Wednesdays" that includes the Wednesday dates from febmar. 
-# (Select column 4 from m1.)
+# (Select column 4 from febmar.)
 Wednesdays <- febmar[, 4]
 
 #28. Create a vector called "Fridays" that includes the Friday dates from febmar. (Select
-# the "F" column from m1.)
+# the "F" column from febmar.)
 Fridays <- febmar[, "F"]
 
 #29. Save the third week of February to a variable week3 by selecting "wk3" from febmar.
